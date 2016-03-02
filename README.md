@@ -1,4 +1,3 @@
-railsbridge-slides
-==================
+# Aspera Analytics Overview
 
-Slides and materials for RailsBridge RoR workshop
+A short presentation on the analytics project at Aspera.
