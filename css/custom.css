@@ -1,0 +1,13 @@
+.img-holder {
+  background-color: rgb(215, 225, 235);
+  margin: 0 auto;
+  width: 64vw;
+  height: 64vh;
+}
+
+.img-holder img#overview {
+  margin: 0;
+  padding: 0;
+  width: 99%;
+  height: 99%;
+}
