@@ -11,3 +11,8 @@
   width: 99%;
   height: 99%;
 }
+
+section p.sub-heading {
+  margin: 40px auto 40px;
+  color: #CCC;
+}

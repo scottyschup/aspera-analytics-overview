@@ -32,25 +32,54 @@
       <div class="slides">
         <section>
           <h1>Aspera Analytics Overview</h1>
-          <p>
-            This project is centered around providing innovative solutions for problems related to the transport, analysis, and visualization of Aspera transfer log data.
+          <p class="fragment">
+            This project is centered around providing innovative solutions for problems related to the transport, analysis, and visualization of Aspera transfer log data
           </p>
         </section>
         <section>
-          <h2>The bird's-eye view</h2>
-          <div class="img-holder">
-            <img id="overview" src="img/overview.png" alt="Aspera Analytics overview diagram" />
-          </div>
+          <section>
+            <h2>The bird's-eye view</h2>
+            <div class="img-holder">
+              <img id="overview" src="img/overview.png" alt="Aspera Analytics overview diagram" />
+            </div>
+          </section>
+          <section>
+            <h2>Rails as API Server</h2>
+            <div class="img-holder">
+              <img id="overview" src="img/overview-highlight.png" alt="Aspera Analytics overview diagram" />
+            </div>
+          </section>
+          <section>
+            <h2>Allows clients to use custom visualization frontends</h2>
+            <div class="img-holder">
+              <img id="overview" src="img/overview-custom.png" alt="Aspera Analytics overview diagram" />
+            </div>
+          </section>
         </section>
         <section>
-          <h2>Interesting features:</h2>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <section>
+            <h2>Some interesting aspects</h2>
+            <p class="sub-heading">Designing API in a modular manner to accomodate multiple use cases</p>
+            <ul>
+              <li class="fragment">Separate out the Angular app from the Rails app</li>
+              <li class="fragment">Plan for custom front end visualization frameworks</li>
+              <li class="fragment">Sensible defaults, but everything is configurable</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Some interesting aspects</h2>
+            <p class="sub-heading">Finding ways to eliminate the transmission of unnecessary data</p>
+            <ul>
+              <li class="fragment">Designing data structure to reduce repetition</li>
+              <li class="fragment">Designing data structure to prioritize speedy read/write (no in situ modifications)</li>
+              <li class="fragment">Number of data points</li>
+              <li class="fragment">Number of data properties</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Some interesting aspects</h2>
+            <p class="sub-heading">Sampling strategies</p>
+          </section>
         </section>
       </div>
 
