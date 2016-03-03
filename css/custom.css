@@ -16,3 +16,10 @@ section p.sub-heading {
   margin: 40px auto 40px;
   color: #CCC;
 }
+
+section img.bryan-img {
+  position: fixed;
+  top: -100px;
+  left: 150px;
+  height: 120%;
+}
